@@ -1,6 +1,6 @@
 import React from "react"
 
-const Square = () => {
+const Square = ({board}) => {
   return (
     <>
       <div className="square"></div>
